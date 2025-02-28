@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Mono Bold";
+  src: url("../assets/fonts/static/JetBrainsMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mono boldItalic";
+  src: url("../assets/fonts/static/JetBrainsMono-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Mono variableItalic";
+  src: url("../assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Mono variableFont";
+  src: url("../assets/fonts/JetBrainsMono-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Space Mono";
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
